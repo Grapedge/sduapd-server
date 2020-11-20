@@ -1,0 +1,36 @@
+{
+  "name": "sduapd",
+  "version": "1.0.0",
+  "description": "SDU 软工课设——敏捷开发平台",
+  "repository": "git@github.com:Grapedge/sduapd-server.git",
+  "author": "grapedge <grapedge@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "cross-env NODE_PATH=./src NODE_ENV=development tsnd --respawn --transpile-only --rs src/app.ts",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "chalk": "^4.1.0",
+    "koa": "^2.13.0",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "koa2-swagger-ui": "^5.0.3",
+    "mongodb": "^3.6.3",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.6",
+    "@types/koa-router": "^7.4.1",
+    "@types/koa-static": "^4.0.1",
+    "@types/koa__cors": "^3.0.2",
+    "@types/mongodb": "^3.5.33",
+    "@types/yamljs": "^0.2.31",
+    "cross-env": "^7.0.2",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.0.5"
+  }
+}

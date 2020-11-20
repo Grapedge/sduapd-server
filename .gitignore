@@ -1,0 +1,5 @@
+node_modules
+# 此文件存储密码凭证等配置信息
+conf/config.yaml
+# 编译文件
+dist
